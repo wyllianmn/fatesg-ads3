@@ -1,7 +1,7 @@
 //Nomes dos alunos
 //Lucas Esposito, Gabriel Oliveira, Gabriel Santiago, Daniel
 
-public class Exercicío7 {
+public class Exercicio7 {
 
     private No head;
 

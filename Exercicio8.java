@@ -2,7 +2,8 @@ class Exercicio8 {
     No inicio;
 
     public void inserirFim(int valor) {
-        No novo = new No(valor);
+        No novo = new No();
+        novo.setDado(valor);
 
         if (inicio == null) {
             inicio = novo;
@@ -10,11 +11,11 @@ class Exercicio8 {
         }
 
         No atual = inicio;
-        while (atual.proximo != null) {
-            atual = atual.proximo;
+        while (atual.getProximo() != null) {   
+            atual = atual.getProximo();         
         }
 
-        atual.proximo = novo;
+        atual.setProximo(novo);                 
     }
 
     public int menor() {
@@ -22,14 +23,14 @@ class Exercicio8 {
             throw new RuntimeException("Lista vazia");
         }
 
-        int menorValor = inicio.valor;
+        int menorValor = inicio.getDado();      
         No atual = inicio;
 
         while (atual != null) {
-            if (atual.valor < menorValor) {
-                menorValor = atual.valor;
+            if (atual.getDado() < menorValor) { 
+                menorValor = atual.getDado();   
             }
-            atual = atual.proximo;
+            atual = atual.getProximo(); 
         }
 
         return menorValor;

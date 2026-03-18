@@ -1,4 +1,4 @@
-package fila;
+// package fila;
 
 /**
  *
@@ -10,7 +10,7 @@ package fila;
 
  **/
 
-public class ExercicioNumero2 {
+public class Exercicio2 {
     private No head;
 
     public void consultar() {

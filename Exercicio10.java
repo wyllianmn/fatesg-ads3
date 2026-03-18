@@ -1,4 +1,4 @@
-package Exercicio10;
+// package Exercicio10;
 
     public class Exercicio10 {
     public No cabeca;
