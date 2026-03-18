@@ -11,7 +11,7 @@
 
 public class Exercicio9 {
 
-    private No inicio;
+    public No inicio;
 
     public void removerPrimeiro() {
         if (inicio == null) {

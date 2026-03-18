@@ -3,7 +3,7 @@
 
 public class Exercicio7 {
 
-    private No head;
+    public No head;
 
     public int getMaior() {
         if (head == null) {

@@ -1,6 +1,6 @@
 public class exercicio1 {
     
-    private No cabeca;
+    public No cabeca;
 
     public void inserirNoInicio(int valor) {
         No novoNo = new No();

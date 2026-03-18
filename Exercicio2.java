@@ -11,7 +11,7 @@
  **/
 
 public class Exercicio2 {
-    private No head;
+    public No head;
 
     public void consultar() {
         if (head == null) {

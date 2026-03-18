@@ -10,7 +10,7 @@
  */
 public class Exercicio4 {
 
-    private No inicio;
+    public No inicio;
 
     public void excluir(int valor) {
         if (inicio == null) {
